@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(243, 242, 245);
+}
+
+h{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color:rgb(255, 0, 0);
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(50, 90, 11);
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(247, 209, 209);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
+    font-variant: normal;
+}
+.destaque {
+    color:#22ec22; 
+    font-weight: bold; 
+
+}
+
+#detaque{
+    color: #9c6500;
+}
