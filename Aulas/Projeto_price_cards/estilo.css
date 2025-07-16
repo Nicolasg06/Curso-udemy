@@ -4,12 +4,20 @@ body{
     max-width: 960px;
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(imagens/arena.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
 }
 .main-title{
     font-size: 62px;
     text-transform: uppercase;
     text-align: center;
     margin: 46px 0;
+}
+.nomecabeçalho{
+    margin-top: 100px;
 }
 .logo{
     align-items: center;
@@ -27,6 +35,8 @@ header{
     text-transform: uppercase;
     margin-left: 16px;
     letter-spacing: 2px;
+    margin-top: 12px;
+    margin-left: 3px;
 }
 .header__nav ul{
     display: flex;
@@ -45,15 +55,15 @@ header{
 
 .header__nav a:hover{
     text-decoration: underline;
-    background-color:#6cabe2 ;
+    background-color:#6e7570 ;
 }
 
-a.header__nav--active{
+/* a.header__nav--active{
     background-color: #6cabe2;
   color: black;
   pointer-events: none;
   cursor: default;
-}
+} */
 .pricing{
     display: flex;
     gap: 16px;
